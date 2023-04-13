@@ -1,0 +1,40 @@
+<!--horizontal frame-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>frameset attribute</title>
+    </head>
+     
+    <!-- frameset attribute starts here -->   
+    <frameset rows = "20%, 60%, 20%">
+        <frame name = "top" src = "attr1.png" />
+        <frame name = "main" src = "gradient3.png" />
+        <frame name = "bottom" src = "col_last.png" />
+        <noframes>
+            <body>The browser you are working does not
+                                  support frames.</body>
+        </noframes>
+    </frameset>
+    <!-- frameset attribute ends here -->
+</html>                               
+
+
+<!--vertical frame-->
+
+<!DOCTYPE html>
+<html>    
+    <head>
+        <title>frameset attribute</title>
+    </head>
+         
+    <frameset cols = "30%, 40%, 30%">
+        <frame name = "top" src = "./bulb.jpg" />
+        <frame name = "main" src = "./bulb.jpg" />
+        <frame name = "bottom" src = "./bulb.jpg" />        
+        <noframes>
+            <body>The browser you are working does
+            not support frames.</body>
+        </noframes>
+    </frameset>
+</html>
